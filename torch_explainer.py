@@ -5,10 +5,10 @@ import numpy as np
 import torch
 from torch.nn.functional import interpolate
 
-from .estimators import JansenEstimator
-from .sampling import ScipySobolSequence
-from .torch_perturbations import inpainting
-from .utils import resize
+from  estimators import JansenEstimator
+from  sampling import ScipySobolSequence
+from  torch_perturbations import inpainting
+from  utils import resize
 
 
 class SobolAttributionMethod:
